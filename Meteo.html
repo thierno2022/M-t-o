@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--required meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--boostrap css-->
+    <link rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+     integrity="sha384-9aIt2nRpC12Uk9gS9baD1411NQApFmC25EwAOH8WgZ15MYYxFfc+NcPb1dKGj7Sk"
+     crossorigin="anonymous"
+     />
+
+
+    <link 
+    rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+     />
+
+    <link rel="stylesheet" href="Meteo.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 my-3">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputCity"/>
+
+                    </div>
+                    <button type="submit" class="btn btn-info btn-block">Recherche</button>
+                </form>
+
+            </div>
+            <div class="col-12 col-sm-6 d-flex justify-content-center my-3">
+                <div class="box-container">
+                    <div id="city" class="box"></div>
+                    <div id="temp" class="box"></div>
+                    <div id="humidity" class="box"></div>
+                    <div id="wind" class="box"></div>
+
+                   
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="Meteo.js"></script>
+</body>
+</html>
